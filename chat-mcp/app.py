@@ -1,5 +1,5 @@
 import asyncio
-
+import os
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 
@@ -18,7 +18,7 @@ async def run_memory_chat():
 
     # Create MCP client and agent with memory enabled
     client = MCPClient.from_config_file(config_file)
-    llm = ChatGroq(model="llama-3.3-70b-versatile")
+    llm = ChatGroq(model="llama-3.3-70b-versatile", api_key=os.getenv("GROQ_API_KEY"))
 
     # Create agent with memory_enabled=True
     agent = MCPAgent(
