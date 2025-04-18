@@ -1,0 +1,16 @@
+[project]
+name = "azure-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "azure-cli>=2.0.67",
+    "fastapi>=0.115.12",
+    "httpx>=0.28.1",
+    "mcp-server>=0.1.4",
+    "mcp[cli]>=1.6.0",
+    "python-dotenv>=1.0.0",
+    "pyyaml>=6.0.1",
+    "uvicorn>=0.34.1",
+]
