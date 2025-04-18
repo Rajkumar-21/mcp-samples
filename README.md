@@ -14,4 +14,4 @@ MCP is a communication protocol that allows AI assistants like Claude to access 
 | Example Code                           | Details                                                    |
 |--------------------------------|--------------------------------------------------------------------|
 | [chat-mcp](chat-mcp/README.md) | chat-mcp using mcp server(duckduckgo search tool) & GROQ LLM       |
-| [azure-mcp](azure-cli-mcp/README.md) | azure-cli-mcp server is used to manage azure resource (Under Development...)       |
+| [azure-cli-mcp](azure-cli-mcp/README.md) | azure-cli-mcp server is used to manage azure resource (Under Development...)       |
