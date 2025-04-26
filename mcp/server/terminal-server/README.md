@@ -24,7 +24,7 @@
                     "-i",
                     "--init",
                     "-e", "DOCKER_CONTAINER=true",
-                    "-v", "/workspaces/mcp-samples/mcp/workspace/:/workspaces/mcp-samples/mcp/workspace/",
+                    "-v", "/workspaces/mcp-samples/mcp/workspace/:/root/workspace/",
                     "rajkumar218/terminal-server:v1"
 
                 ],
