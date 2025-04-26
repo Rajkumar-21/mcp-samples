@@ -3,7 +3,7 @@ import subprocess
 from mcp.server.fastmcp import FastMCP
 
 mcp = FastMCP("terminal-server 📟")
-DEFAULT_WORKSPACE = os.path.expanduser("mcp/client/terminal-client")
+DEFAULT_WORKSPACE = os.path.expanduser("/workspaces/mcp-samples/mcp/workspace")
 
 @mcp.tool()  
 def run_command(command: str):  
@@ -23,4 +23,4 @@ def run_command(command: str):
         return str(e)
     
 if __name__ == "__main__":  
-    mcp.run(transport='stdio')  
+    mcp.run(transport='stdio')
