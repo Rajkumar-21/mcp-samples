@@ -1,0 +1,12 @@
+from datetime import datetime
+
+# Get the current time
+current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+# File path for docker.txt
+docker_file_path = "/workspaces/mcp-samples/mcp/docker.txt"
+
+# Append the current time and 'hello' to the file
+with open(docker_file_path, "a") as file:
+    file.write(current_time + "\n")
+    file.write("hello\n")

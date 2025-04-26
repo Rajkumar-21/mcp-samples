@@ -1,15 +1,3 @@
-# Terminal Server
-
-
-| MCP Server                           | Details                                                    |
-|--------------------------------|--------------------------------------------------------------------|
-| [terminal-server](mcp/server/terminal-server/README.md) | Interact with filesystem using terminal(execute command to create files, etc) 
-
-
-***Settings.json for VS code***
-
-
-```
 {
     "mcp": {
 
@@ -33,4 +21,3 @@
         }
     }
 }
-```
