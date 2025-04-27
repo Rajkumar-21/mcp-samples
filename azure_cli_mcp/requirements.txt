@@ -1,8 +1,0 @@
-httpx
-mcp[cli]
-pyyaml>=6.0.1
-python-dotenv>=1.0.0
-mcp-server
-fastapi
-uvicorn
-azure-cli
